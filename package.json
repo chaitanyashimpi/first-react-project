@@ -1,0 +1,29 @@
+{
+  "name": "adopt-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier \"src/**/*.{js,html,css}\" --write",
+    "lint" : "eslint \"src/**/*.{js,jsx}\" --quite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaitanyashimpi/first-react-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaitanyashimpi/first-react-project/issues"
+  },
+  "homepage": "https://github.com/chaitanyashimpi/first-react-project#readme",
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^7.2.0"
+  }
+}
