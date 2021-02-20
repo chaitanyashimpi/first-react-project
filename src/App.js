@@ -1,15 +1,8 @@
-// Your code is going to go here
-// throw new Error('lol');
+import React from 'react';
+import {render} from 'react-dom';
+import Pet from './Pet';
 
-const Pet = ({ name, animal, bread }) => {
-  return React.createElement("div", {}, [
-    React.createElement("h1", {}, name),
-    React.createElement("h2", {}, animal),
-    React.createElement("h2", {}, bread),
-  ]);
-};
-
-const App = (props) => {
+const App = () => {
   return React.createElement("div", {}, [
     React.createElement("h1", {}, "Adopt Me!"),
     React.createElement(Pet, {
@@ -29,4 +22,12 @@ const App = (props) => {
     }),
   ]);
 };
-ReactDOM.render(React.createElement(App), document.getElementById("root"));
+render(React.createElement(App), document.getElementById("root"));
+
+
+
+
+
+
+// Your code is going to go here
+// throw new Error('lol');
